@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+}
+
+h1, h2 {
+    color: #1E90FF; /* Color azul claro */
+}
+
+.list-group-item {
+    background-color: #1f1f1f; /* Fondo oscuro para los ítems de la lista */
+    color: #ffffff; /* Color de texto blanco */
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    background-color: #333333; /* Fondo un poco más claro al pasar el ratón */
+}
+
+form {
+    background: #1f1f1f; /* Fondo oscuro para el formulario */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombras más oscuras */
+}
+
+label {
+    color: #ffffff; /* Color de las etiquetas */
+}
+
+button {
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+}
